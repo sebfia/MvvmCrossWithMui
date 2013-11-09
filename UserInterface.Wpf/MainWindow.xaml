@@ -1,0 +1,15 @@
+﻿<mui:ModernWindow x:Class="UserInterface.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+        Title="MainWindow" Height="350" Width="525">
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="MvvmCross Rocks">
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="Link1" Source="pack://Core.dll/Core/ViewModels/FirstViewModel"/>
+                <mui:Link DisplayName="Link2" Source="pack://Core.dll/Core/ViewModels/SecondViewModel"/>
+                <mui:Link DisplayName="Link3" Source="pack://Core.dll/Core/ViewModels/LastViewModel"/>
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+</mui:ModernWindow>
